@@ -1,0 +1,77 @@
+[{
+    "message": "user fetched without paginate",
+    "user": [
+        {
+            "organisation": [
+                {
+                    "branch": [
+                        {
+                            "role": [
+                                {
+                                    "_id": "5f6460ddf35da72c9d596eaf",
+                                    "name": "Manager",
+                                    "active": true
+                                }
+                            ],
+                            "_id": "5f6460ddf35da72c9d596eb0",
+                            "name": "Tirupur",
+                            "location": "Tup"
+                        }
+                    ],
+                    "_id": "5f6460ddf35da72c9d596eb1",
+                    "name": "RVS CAS"
+                }
+            ],
+            "_id": "5f6460ddf35da72c9d596eb2",
+            "name": "Ashok",
+            "createdAt": "2020-09-18T07:25:17.818Z",
+            "updatedAt": "2020-09-18T07:25:17.818Z",
+            "__v": 0
+        }
+    ],
+    "success": true
+},
+{
+    "message": "user fetched with paginate",
+    "user": {
+        "docs": [
+            {
+                "organisation": [
+                    {
+                        "branch": [
+                            {
+                                "role": [
+                                    {
+                                        "_id": "5f6460ddf35da72c9d596eaf",
+                                        "name": "Manager",
+                                        "active": true
+                                    }
+                                ],
+                                "_id": "5f6460ddf35da72c9d596eb0",
+                                "name": "Tirupur",
+                                "location": "Tup"
+                            }
+                        ],
+                        "_id": "5f6460ddf35da72c9d596eb1",
+                        "name": "RVS CAS"
+                    }
+                ],
+                "_id": "5f6460ddf35da72c9d596eb2",
+                "name": "Ashok",
+                "createdAt": "2020-09-18T07:25:17.818Z",
+                "updatedAt": "2020-09-18T07:25:17.818Z",
+                "__v": 0
+            }
+        ],
+        "totalDocs": 1,
+        "limit": 10,
+        "totalPages": 1,
+        "page": 1,
+        "pagingCounter": 1,
+        "hasPrevPage": false,
+        "hasNextPage": false,
+        "prevPage": null,
+        "nextPage": null
+    },
+    "success": true
+}]
